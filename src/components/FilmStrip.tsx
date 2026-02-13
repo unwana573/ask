@@ -5,10 +5,10 @@ import photo3 from "@/assets/photo3.jpeg";
 import photo4 from "@/assets/WhatsApp Image 2025-12-18 at 7.57.35 PM.jpeg";
 
 const photos = [
-  { id: 3, label: "Our first date", src: photo3 },
-  { id: 2, label: "That sunset", src: photo2 },
   { id: 1, label: "Slay queen", src: photo1 },
-  { id: 4, label: "Always us", src: photo4 },
+  { id: 3, label: "Our day one", src: photo3 },
+  { id: 2, label: "That sunset", src: photo2 },
+  { id: 4, label: "Our first date", src: photo4 },
 ];
 
 const FilmStrip = () => {
