@@ -30,7 +30,7 @@ const BackgroundMusic = () => {
 
   return (
     <>
-      <audio ref={audioRef} src="/music/background.mp3" loop />
+      <audio ref={audioRef} src="/music/back.mp3" loop />
       <button
         onClick={toggle}
         className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 bg-card/80 backdrop-blur-sm border border-border rounded-full px-4 py-2 font-casual text-sm text-foreground/70 hover:bg-card transition-colors shadow-md"
